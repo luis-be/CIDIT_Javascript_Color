@@ -36,7 +36,7 @@ inputRojo.addEventListener('change', (e) => {
 inputVerde.addEventListener('change', (e) => {
   // Actualiza el valor de la variable y el texto.
   verde = e.target.value;
-  textoAzul.textContent = verde;
+  textoVerde.textContent = verde;
   // Llama a la función para actualizar el color de fondo.
   actualizarColor(rojo, verde, azul)
 });
